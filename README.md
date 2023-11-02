@@ -1,6 +1,5 @@
 # 2023-SMODE-Open-Data-Workshop
 November 9, 2023
-Time TBD
 
 ## Recordings and Presentations
 
