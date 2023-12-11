@@ -5,12 +5,15 @@ November 9, 2023
 
 ## Agenda
 
-TBD
-
+10:20am - Examples of use of S-MODE data access and use
 
 ## Prerequisites
 
 To follow along hands-on during the Workshop, please do the following:
+
+### Python environment
+
+This project uses version 1.0.0 of the Coringa environment. For more details, visit the GitHub repository: https://github.com/iuryt/env_coringa.
 
 ### Earthdata Login account
 
@@ -21,7 +24,7 @@ S-MODE datasets can be found through Earthdata Search: [https://search.earthdata
 
 #### Set up .netrc file for Earthdata login
 
-You will need a netrc file containing your NASA Earthdata Login credentials in order to execute the notebooks. A netrc file can be created manually within text editor and saved to your home directory. An example of the required content is below.
+The current tutorial available on this repository uses [earthaccess](https://github.com/nsidc/earthaccess) package to download data from PO.DAAC and will ask for your Earthdata username and password at every run, but you can also  setup a netrc file containing your NASA Earthdata Login credentials in order to execute the notebooks. A netrc file can be created manually within text editor and saved to your home directory. An example of the required content is below.
 
     machine urs.earthdata.nasa.gov
       login <USERNAME>
@@ -75,6 +78,7 @@ S-MODE data can be found through Earthdata Search here: [https://search.earthdat
 
 ## Science Case Study 
  
- TBD
+Under `notebooks` directory:
 
+- DopplerScatt_SurfaceDrifters.ipynb : downloads, process, map and visualize DopplerScatt and surface drifters data.
 
