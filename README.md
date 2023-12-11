@@ -80,5 +80,5 @@ S-MODE data can be found through Earthdata Search here: [https://search.earthdat
  
 Under `notebooks` directory:
 
-- DopplerScatt_SurfaceDrifters.ipynb : downloads, process, map and visualize DopplerScatt and surface drifters data.
+- DopplerScatt_SurfaceDrifters.ipynb : download, process, map and visualize DopplerScatt and surface drifters data.
 
